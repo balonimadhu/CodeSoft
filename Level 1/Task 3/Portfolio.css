@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    
+   
+}
+body{
+    text-align: center;
+    background-image:
+    url("image/backgound.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:1280px;
+    height: 50px;
+    background-color: rgb(216, 194, 136);
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+
+
+   
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;}
+
+
+.firstsection h1{
+    
+    font-family: 'Dancing Script', cursive;
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background: rgb(157, 136, 136);
+}
+.firstsection  i{
+    font-size:40px;
+    color:rgb(56, 197, 244);
+    box-shadow: inset 5px 5px 12px #fff,
+    inset 5px 5px 12px  rgba(155, 115, 239, 0.3);  
+    letter-spacing: 3px;
+    
+}
+.firstsection p{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(83, 15, 146);
+    font-weight: bolder;
+}
+.purple{
+    color: black;
+}
+.red{
+    color: red;
+    font-size: large;
+    font-weight: bolder;
+}
+.skill{
+    display:flex;
+    align-items: center;
+    gap: 3em;
+   
+}
+.skill h1{
+    color: rgb(83, 15, 146);
+    font-weight:bolder;
+    font-family: 'Dancing Script', cursive;
+
+}
+.text-box{
+    position: absolute;
+    left: 0px;
+}
+.left1  h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+   
+}
+.left1 p{
+    color: rgb(83, 15, 146);
+    font-weight:bolder;
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+
+.secondsection{
+    display: flex;
+    justify-content: space-between;
+   }
+
+
+
+
+
+
+
+
+
+
+
+/* .btn{
+    width: 140px;
+}
+footer.footer {
+    background-color: var(--dark);
+    color: var(--pure);
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  footer.footer p {
+    font-size: 1rem;
+  }
+  
+  footer.footer .footer-links {
+    margin-top: 1rem;
+  }
+  
+  footer.footer .footer-links a {
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  
+  footer.footer .footer-links a:hover {
+    color: var(--primary);
+  } */

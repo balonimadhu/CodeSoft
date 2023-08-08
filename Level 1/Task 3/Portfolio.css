@@ -1,149 +1,255 @@
-* {
-    padding: 0;
+
+
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    box-sizing: border-box;
-    font-family: 'Dosis', sans-serif;
-    
-   
-}
-body{
-    text-align: center;
-    background-image:
-    url("image/backgound.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    
-}
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width:1280px;
-    height: 50px;
-    background-color: rgb(216, 194, 136);
+    padding: 0;
+    background-color: #f0f0f0;
+    /* /* background-image: url("image/back2.jpg"); */
+} 
 
-}
-nav ul{
-    display: flex;
-    justify-content: center;
-}
-nav ul li{
-    list-style: none;
-    margin: 0 23px;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-
-
-   
-.firstsection{
-    display: flex;
-    justify-content: space-around;
-    margin: 23px 0;}
-
-
-.firstsection h1{
-    
-    font-family: 'Dancing Script', cursive;
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
 }
 
-.container a{
-    text-decoration: none;
-    color: white;
-    padding: 5px 10px;
-    background: rgb(157, 136, 136);
-}
-.firstsection  i{
-    font-size:40px;
-    color:rgb(56, 197, 244);
-    box-shadow: inset 5px 5px 12px #fff,
-    inset 5px 5px 12px  rgba(155, 115, 239, 0.3);  
-    letter-spacing: 3px;
-    
-}
-.firstsection p{
-    font-family: 'Dancing Script', cursive;
-    color: rgb(83, 15, 146);
-    font-weight: bolder;
-}
-.purple{
-    color: black;
-}
-.red{
-    color: red;
-    font-size: large;
-    font-weight: bolder;
-}
-.skill{
-    display:flex;
-    align-items: center;
-    gap: 3em;
-   
-}
-.skill h1{
-    color: rgb(83, 15, 146);
-    font-weight:bolder;
-    font-family: 'Dancing Script', cursive;
-
-}
-.text-box{
-    position: absolute;
-    left: 0px;
-}
-.left1  h1{
-    font-family: 'Dancing Script', cursive;
-    font-weight: bolder;
-   
-}
-.left1 p{
-    color: rgb(83, 15, 146);
-    font-weight:bolder;
-    font-family: 'Dancing Script', cursive;
-
-
-}
-
-
-.secondsection{
+nav {
     display: flex;
     justify-content: space-between;
-   }
-
-
-
-
-
-
-
-
-
-
-
-/* .btn{
-    width: 140px;
+    align-items: center;
 }
-footer.footer {
-    background-color: var(--dark);
-    color: var(--pure);
-    padding: 1rem 0;
-    text-align: center;
-  }
-  
-  footer.footer p {
-    font-size: 1rem;
-  }
-  
-  footer.footer .footer-links {
-    margin-top: 1rem;
-  }
-  
-  footer.footer .footer-links a {
-    color: var(--pure);
+
+nav .left {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+nav .right ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav .right ul li {
+    margin-right: 20px;
+}
+
+nav .right ul li a {
+    color: #fff;
     text-decoration: none;
-    margin-right: 1rem;
-  }
-  
-  footer.footer .footer-links a:hover {
-    color: var(--primary);
-  } */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav .right ul li a:hover {
+    color: #ff5733;
+}
+
+/* Home Section */
+.firstsection {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.firstsection .left {
+    flex: 1;
+}
+
+.firstsection h1 {
+    font-size: 40px;
+    color: #444;
+}
+
+.firstsection .purple {
+    color: #8a2be2;
+}
+
+.firstsection p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.firstsection .social-icons {
+    font-size: 24px;
+}
+
+.firstsection .social-icons a {
+    color: #666;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.firstsection .social-icons a:hover {
+    color: #ff5733;
+}
+
+.firstsection a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.firstsection a:first-child {
+    margin-right: 10px;
+}
+
+/* Skills Section */
+.skill {
+    padding: 40px;
+}
+
+.skill h1 {
+    font-size: 32px;
+    color: #444;
+}
+
+.skill .c, .skill .c1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.skill img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.skill h3 {
+    font-size: 20px;
+    color: #666;
+}
+
+
+/* Projects Section */
+.projects {
+    padding: 40px;
+}
+
+.projects h1 {
+    font-size: 32px;
+    color: #444;
+}
+
+.projects .project {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.projects .left1 {
+    flex: 1;
+}
+
+.projects .right1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects h3 {
+    font-size: 24px;
+    color: #444;
+}
+
+.projects p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.projects img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Resume Section */
+.resume {
+    padding: 40px;
+}
+
+.resume h4 {
+    font-size: 24px;
+    color: #444;
+}
+
+.resume h3 {
+    font-size: 32px;
+    color: #444;
+}
+
+.resume p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.resume .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.resume .image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #ff5733;
+}
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .firstsection {
+        flex-direction: column;
+    }
+
+    .firstsection img {
+        width: 100%;
+        max-width: 300px;
+        max-height: 300px;
+    }
+}

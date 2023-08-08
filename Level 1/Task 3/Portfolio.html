@@ -3,139 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="Portfolio.css"
+    <link rel="stylesheet" type="text/css" href="Portfolio.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dosis&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
     <title>Portfolio</title>
 </head>
 <body>
     <header>
         <nav>
-        <div class="left"><span class="red">Madhu</span>Baloni</div>
-        <div class="right ">
-            <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="">skill</a></li>
-            <li><a href="/">projects</a></li>
-            <li><a href="/">Contact</a></li>
-            </ul>
-        </div>
-            
-          </div>
+            <div class="left"><span class="red">Madhu</span> Baloni</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     
-    <div class="container">    <!-- About Section -->
-        <section class="firstsection" >
+    <div class="container">
+        <!-- Home Section -->
+        <section id="home" class="firstsection">
             <div class="left">
-            <h1>HELLO! I'M <span class="purple">MADHU BALONI</span></h1>
-            <br/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Omnis ipsum aperiam quos dignissimos similique repudiandae accusamus nam at.<br/> Est tempore, perspiciatis quam inventore harum nostrum atque eveniet alias rem ratione!</p><br/><br/>
-            <i class="fa fa-facebook" ></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-linkedin"></i>
-            <i class="fa fa-telegram"></i>
-            <i class="fa fa-instagram"></i>
-           <br/>  <br/>
-            <a href="#">CONTACT ME</a>
-            <a href="#">SEE MY RESUME</a>
-         </div>
-         <div class="right">
-        <img src="image/profile.jpg" alt="" width="80%" height="80%">
-        
-        </div>
-        
-
+                <h1>HELLO! I'M <span class="purple">MADHU BALONI</span></h1>
+                <br/>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Omnis ipsum aperiam quos dignissimos similique repudiandae accusamus nam at.<br/> Est tempore, perspiciatis quam inventore harum nostrum atque eveniet alias rem ratione!</p>
+                <br/><br/>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-telegram"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+                <br/><br/>
+                <a href="#">CONTACT ME</a>
+                <a href="#">SEE MY RESUME</a>
+            </div>
+            <div class="right">
+                <img src="image/profile.jpg" alt="" width="80%" height="80%">
+            </div>
         </section>
         
+        <!-- Add a horizontal line after the home section -->
+        <hr>
         
-        <div class="skill">
-           <section id="skill" class="skill" > <!-- skills Section -->
-            <h1>Skills</h1>
-           <div class="c">
-           <img src="image/c.jpg" alt="" width="50px" height="50px">
-           <h3>C</h3>
-           </div>
-           <div class="c1">
+        <!-- About Section -->
+        <div class="container" id="about">    <!-- About Section -->
+            <section class="section">
+                <h1>About Me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel velit a urna cursus varius. Curabitur euismod massa sit amet augue facilisis, a tristique tortor fringilla. Nullam eget justo eget purus facilisis consequat.</p>
+            </section>
+        </div>
+        <!-- Add a horizontal line after the about section -->
+        <hr>
+        
+        
+        <!-- Skills Section -->
+<section id="skills" class="skill">
+    <div class="container">
+        <h1>Skills</h1>
+        <div class="c">
+            <img src="image/c.jpg" alt="" width="50px" height="50px">
+            <h3>C</h3>
+        </div>
+        <div class="c1">
             <img src="image/c1.jpg" alt="" width="50px" height="50px">
             <h3>C++</h3>
-            </div>
-            <div class="c">
-                <img src="image/java.jpg" alt="" width="50px" height="50px">
-                <h3>JAVA</h3>
-                </div>
-                <div class="c">
-                    <img src="image/html.jpg" alt="" width="50px" height="50px">
-                    <h3>HTML</h3>
-                    </div>
-                    <div class="c">
-                        <img src="image/css.jpg" alt="" width="50px" height="50px">
-                        <h3>CSS</h3>
-                        </div>
-                         <div class="c">
-                            <img src="image/react.jpg" alt="" width="50px" height="50px">
-                            <h3>REACT</h3>
-                            </div>
-                             <div class="c">
-                                <img src="image/tail.jpg" alt="" width="50px" height="50px">
-                                <h3>TAILWIND</h3>
-                                </div>
-                                </div>
-    
-                 </section>
-                 <br/><br/>
-                  <!-- project Section -->
-            
-                  <div class="container">
-                <section class="secondsection">
-                 
-                  
-                        <div class="left1" >
-                            <h1>My Project</h1>
-                            <h3>Music Player</h3>
-                            <p>In this project, we will create a music player in which we can play the music, pause, stop or resume the music.<br/> We are creating a project using the tkinter and pygame module. Using the Tkinter library we are creating a GUI for the music player.</p>
-                        </div>
+        </div>
+        <div class="c">
+            <img src="image/java.jpg" alt="" width="50px" height="50px">
+            <h3>JAVA</h3>
+        </div>
+        <div class="c">
+            <img src="image/html.jpg" alt="" width="50px" height="50px">
+            <h3>HTML</h3>
+        </div>
+        <div class="c">
+            <img src="image/css.jpg" alt="" width="50px" height="50px">
+            <h3>CSS</h3>
+        </div>
+        <div class="c">
+            <img src="image/react.jpg" alt="" width="50px" height="50px">
+            <h3>REACT</h3>
+        </div>
+        <div class="c">
+            <img src="image/tail.jpg" alt="" width="50px" height="50px">
+            <h3>TAILWIND</h3>
+        </div>
+    </div>
+</section>
 
-                        <div class="right1">
-                            <img src="image/musicicon.jpg" alt="" width="100%" height="100%">
-                        </div>
-                        
-                   
+        <!-- Add a horizontal line after the skills section -->
+        <hr>
         
-                </section>
+        
+       <!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <h1>My Projects</h1>
+        <div class="project">
+            <div class="left1">
+                <h3>Music Player</h3>
+                <p>In this project, we will create a music player in which we can play the music, pause, stop, or resume the music.<br/> We are creating a project using the tkinter and pygame module. Using the Tkinter library we are creating a GUI for the music player.</p>
             </div>
-              <!-- Resume Section -->
-                <div class="content">
-                    <div class="left">
-                        <h4>I'm Madhu</h4>
-                        <h3>Web Developer</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.... </p>
-                        <button class="btn">Download CV</button>
-                        <div class="image">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                  
-                    </div>
-                    
-                        <footer class="footer">
-                            <div class="container">
-                              <p>&copy; 2023 Your Name. All rights reserved.</p>
-                              <div class="footer-links">
-                                <a href="#about">About</a>
-                                <a href="#skills">Skills</a>
-                                <a href="#project">Project</a>
-                                <a href="#resume">Resume</a>
-                                <a href="#contact">Contact</a>
-                                
-                              </div>
-                            </div>
-                          </footer>
+            <div class="right1">
+                <img src="image/musicicon.jpg" alt="" width="100%" height="100%">
+            </div>
+        </div>
+        <!-- Add more project entries as needed -->
+    </div>
+</section>
 
-    </div> 
+        
+        <!-- Add a horizontal line after the projects section -->
+        <hr>
+        
+      
+       <!-- Resume Section -->
+<section id="resume" class="resume">
+    <div class="container">
+        <div class="left">
+            <h4>I'm Madhu</h4>
+            <h3>Web Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit....</p>
+            <button class="btn">Download CV</button>
+            <div class="image">
+                <img src="image/profile.jpg" alt="Profile Image">
+            </div>
+        </div>
+    </div>
+</section>
 
-    
+        
+        <!-- Add a horizontal line after the resume section -->
+        <hr>
+        
+        <!-- Contact Section -->
+        <div class="container" id="contact">    <!-- Contact Section -->
+            <section class="section">
+                <h1>Contact Me</h1>
+                <p>Email: your.email@example.com</p>
+                <p>Phone: +1 123-456-7890</p>
+                <!-- Add a contact form here if you want -->
+            </section>
+        </div>
+        
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2023 Your Name. All rights reserved.</p>
+                
+            </div>
+        </footer>
+    </div>
+
+    <!-- Your Portfolio.css file should be included here -->
+    <script>
+        // JavaScript for smooth scrolling
+        const navLinks = document.querySelectorAll('nav ul li a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetSection = document.querySelector(link.getAttribute('href'));
+                targetSection.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>

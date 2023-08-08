@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #cbedfc;
     /* /* background-image: url("image/back2.jpg"); */
 } 
 
@@ -76,7 +76,7 @@ nav .right ul li a:hover {
 }
 
 .firstsection p {
-    color: #666;
+    color: #272626;
     line-height: 1.6;
 }
 
@@ -91,14 +91,14 @@ nav .right ul li a:hover {
 }
 
 .firstsection .social-icons a:hover {
-    color: #6cbceb;
+    color: #272828;
 }
 
 .firstsection a {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #ff5733;
+    background-color: #766dfa;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -214,7 +214,7 @@ nav .right ul li a:hover {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #ff5733;
+    background-color: #766dfa;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;

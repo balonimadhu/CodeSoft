@@ -59,6 +59,7 @@ nav .right ul li a:hover {
     display: flex;
     align-items: center;
     padding: 40px;
+    justify-content: space-between;
 }
 
 .firstsection .left {
@@ -106,6 +107,12 @@ nav .right ul li a:hover {
 .firstsection a:first-child {
     margin-right: 10px;
 }
+/* .right img{
+  margin-right: 80px;
+  display: flex;
+  justify-content: space-between;
+
+} */
 
 /* Skills Section */
 .skill {

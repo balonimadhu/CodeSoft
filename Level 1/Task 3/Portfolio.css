@@ -51,7 +51,7 @@ nav .right ul li a {
 }
 
 nav .right ul li a:hover {
-    color: #ff5733;
+    color: #f4a389;
 }
 
 /* Home Section */
@@ -91,7 +91,7 @@ nav .right ul li a:hover {
 }
 
 .firstsection .social-icons a:hover {
-    color: #ff5733;
+    color: #6cbceb;
 }
 
 .firstsection a {
@@ -107,12 +107,14 @@ nav .right ul li a:hover {
 .firstsection a:first-child {
     margin-right: 10px;
 }
-/* .right img{
-  margin-right: 80px;
+.right img{
+  margin-right: 50px;
   display: flex;
   justify-content: space-between;
+  width: 500px;
+  height: 500px;
 
-} */
+}
 
 /* Skills Section */
 .skill {
